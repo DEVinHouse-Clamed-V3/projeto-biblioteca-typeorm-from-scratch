@@ -21,6 +21,9 @@
 ##  Contribuidores
 
 -[Franklin Berwald](https://github.com/frankberwald)
+<br/>
 -[Dominice Lanzarini](https://github.com/DominiceLanzarini)
+<br/>
 -[Gustavo Fernandes](https://github.com/Gusstavosf)
+<br/>
 -[Felipe Trojan](https://github.com/fetrojan)
