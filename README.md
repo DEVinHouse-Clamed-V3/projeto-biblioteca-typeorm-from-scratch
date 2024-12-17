@@ -8,15 +8,14 @@
   Construindo um projeto do zero com TypeORM, TypeScript, NodeJS, Express e MySQL
 </h1>
 
-<p align="justify">Estes códigos pertencem à playlist do canal do YouTube TecEdu4All. </p> 
+<p align="justify">O objetivo desse exercício é criar uma aplicação simples utilizando TypeORM, PostgreSQL e Node.js para gerenciar informações sobre os autores de uma biblioteca.  </p> 
 
-<p align="justify">Se gostou do repositório, deixe sua estrela ⭐ </p> 
 
 <br/>
 
 ## 👨🏼‍💻 Professor
 
-- [Felipe Becker Nunes](https://www.linkedin.com/in/felipe-becker-nunes-b561a576/)
+- [Douglas Cavalcante](https://github.com/douglas-cavalcante)
 
 ## 💻 Playlist/Vídeo
 
