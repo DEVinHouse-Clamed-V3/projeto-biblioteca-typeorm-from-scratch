@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-  Construindo um projeto do zero com TypeORM, TypeScript, NodeJS, Express e MySQL
+  Construindo um projeto de gerenciamento de uma Biblioteca.
 </h1>
 
 <p align="justify">O objetivo desse exercício é criar uma aplicação simples utilizando TypeORM, PostgreSQL e Node.js para gerenciar informações sobre os autores de uma biblioteca.  </p> 
@@ -13,29 +13,20 @@
 
 <br/>
 
-## 👨🏼‍💻 Professor
+## Tutor
 
 - [Douglas Cavalcante](https://github.com/douglas-cavalcante)
 
-## 💻 Playlist/Vídeo
-
-- [Construíndo um projeto do zero com TypeORM, TypeScript, NodeJS, Express e MySQL](https://youtu.be/c74zNWoCJiA)
-
-## ✋🏻 Pré-requisitos
+##  Tecnologias utilizadas
 
 - [Node.js](https://nodejs.org/en/)
+- [TypeORM](https://typeorm.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [PostgreSQL](https://www.postgresql.org/)
 
-## 🔥 Instruções de Instalação e Execução
+##  Contribuidores
 
-1. Faça um clone desse repositório;
-2. Rode o comando `npm i`
-3. Configure os dados de conexão no banco no arquivo `data-source.ts`
-4. Rode o comando `npm run dev:server`
-
-## 📝 Licença
-
-- Este projeto tem licença MIT. 
-
----
-
-[Inscreva-se no canal para ver estes vídeos e muito mais!](https://www.youtube.com/channel/UClIDejJoLMKCfXKEyi5ZTWQ)
+-[Franklin Berwald](https://github.com/frankberwald)
+-[Dominice Lanzarini](https://github.com/DominiceLanzarini)
+-[Gustavo Fernandes](https://github.com/Gusstavosf)
+-[Felipe Trojan](https://github.com/fetrojan)
