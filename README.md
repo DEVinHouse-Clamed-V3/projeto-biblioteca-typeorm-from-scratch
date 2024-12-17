@@ -21,7 +21,7 @@
 
 -[Franklin Berwald](https://github.com/frankberwald)
 <br/>
--[Dominice Lanzarini](https://github.com/DominiceLanzarini) <img href="https://avatars.githubusercontent.com/u/175992376?v=4"/>
+-<i href="https://github.com/DominiceLanzarini">[Dominice Lanzarini]<i>
 <br/>
 -[Gustavo Fernandes](https://github.com/Gusstavosf)
 <br/>
