@@ -8,7 +8,13 @@
 
 ## Tutor
 
-- [Douglas Cavalcante](https://github.com/douglas-cavalcante)
+  <div><li>
+    <a href="https://github.com/douglas-cavalcante" style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #000;">
+      <img src="https://avatars.githubusercontent.com/u/38563983?v=4" alt="Franklin Berwald" style="width: 80px; height: 80px; border-radius: 10px;"> 
+    </a>
+      <span>Douglas Cavalcante</span>
+  </li>
+  </div>
 
 ## Tecnologias utilizadas
 
