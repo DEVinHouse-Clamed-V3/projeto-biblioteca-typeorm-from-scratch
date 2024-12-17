@@ -25,7 +25,7 @@
 
 ## Contribuidores
 
-<ul style="list-style: none; padding: 0;">
+<ul style="list-style: none; padding: 0; margin: 0;">
   <li style="display: flex; align-items: center; margin-bottom: 10px;">
     <img src="https://avatars.githubusercontent.com/u/127545990?v=4" 
          alt="Franklin Berwald" 
@@ -51,4 +51,5 @@
     <span style="display: inline-block;">Felipe Trojan</span>
   </li>
 </ul>
+
 
