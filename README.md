@@ -19,10 +19,10 @@
 
 ##  Contribuidores
 
--[Franklin Berwald](https://github.com/frankberwald)
+[Franklin Berwald](https://github.com/frankberwald)
 <br/>
--<i href="https://github.com/DominiceLanzarini">[Dominice Lanzarini]<i>
+<a href="https://github.com/DominiceLanzarini">[Dominice Lanzarini]</a>
 <br/>
--[Gustavo Fernandes](https://github.com/Gusstavosf)
+[Gustavo Fernandes](https://github.com/Gusstavosf)
 <br/>
--[Felipe Trojan](https://github.com/fetrojan)
+[Felipe Trojan](https://github.com/fetrojan)
