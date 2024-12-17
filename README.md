@@ -26,41 +26,29 @@
 ## Contribuidores
 
 <ul style="list-style: none; padding: 0;">
-  <li>
-    <a href="https://github.com/frankberwald" 
-       style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #000;">
-      <img src="https://avatars.githubusercontent.com/u/127545990?v=4" 
-           alt="Franklin Berwald" 
-           style="width: 50px; height: 50px; border-radius: 10px; object-fit: cover;"> 
-      <span style="line-height: 50px;">Franklin Berwald</span>
-    </a>
+  <li style="display: flex; align-items: center; margin-bottom: 10px;">
+    <img src="https://avatars.githubusercontent.com/u/127545990?v=4" 
+         alt="Franklin Berwald" 
+         style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+    <span style="display: inline-block;">Franklin Berwald</span>
   </li>
-  <li>
-    <a href="https://github.com/DominiceLanzarini" 
-       style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #000;">
-      <img src="https://avatars.githubusercontent.com/u/175992376?v=4" 
-           alt="Dominice Lanzarini" 
-           style="width: 50px; height: 50px; border-radius: 10px; object-fit: cover;">
-      <span style="line-height: 50px;">Dominice Lanzarini</span>
-    </a>
+  <li style="display: flex; align-items: center; margin-bottom: 10px;">
+    <img src="https://avatars.githubusercontent.com/u/175992376?v=4" 
+         alt="Dominice Lanzarini" 
+         style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+    <span style="display: inline-block;">Dominice Lanzarini</span>
   </li>
-  <li>
-    <a href="https://github.com/Gusstavosf" 
-       style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #000;">
-      <img src="https://avatars.githubusercontent.com/u/102191561?v=4" 
-           alt="Gustavo Fernandes" 
-           style="width: 50px; height: 50px; border-radius: 10px; object-fit: cover;">
-      <span style="line-height: 50px;">Gustavo Fernandes</span>
-    </a>
+  <li style="display: flex; align-items: center; margin-bottom: 10px;">
+    <img src="https://avatars.githubusercontent.com/u/102191561?v=4" 
+         alt="Gustavo Fernandes" 
+         style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+    <span style="display: inline-block;">Gustavo Fernandes</span>
   </li>
-  <li>
-    <a href="https://github.com/fetrojan" 
-       style="display: flex; align-items: center; gap: 10px; text-decoration: none; color: #000;">
-      <img src="https://avatars.githubusercontent.com/u/97450797?v=4" 
-           alt="Felipe Trojan" 
-           style="width: 50px; height: 50px; border-radius: 10px; object-fit: cover;">
-      <span style="line-height: 50px;">Felipe Trojan</span>
-    </a>
+  <li style="display: flex; align-items: center;">
+    <img src="https://avatars.githubusercontent.com/u/97450797?v=4" 
+         alt="Felipe Trojan" 
+         style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; margin-right: 10px;">
+    <span style="display: inline-block;">Felipe Trojan</span>
   </li>
 </ul>
 
