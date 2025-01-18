@@ -10,6 +10,14 @@ export const AppDataSource = new DataSource({
     database: "project_typeorm",
     synchronize: true,
     logging: true,
-    entities: ["src/entity/*.ts"],
+    entities: ["src/entities/*.ts"],
     migrations: ["src/database/migrations/*.ts"]
-})
+});
+
+AppDataSource.initialize()
+    .then(() => {
+        console.log("Data Source inicializado com sucesso!");
+    })
+    .catch((err) => {
+        console.error("Erro ao inicializar o Data Source", err);
+    });
