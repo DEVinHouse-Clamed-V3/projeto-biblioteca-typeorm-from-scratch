@@ -1,7 +1,7 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('auditoriums')
-class Auditorio {
+export class Auditorio {
     
     @PrimaryGeneratedColumn()
     id: number;
@@ -27,5 +27,3 @@ class Auditorio {
     @Column()
     updated_at: Date;
 }
-
-export default Auditorio;

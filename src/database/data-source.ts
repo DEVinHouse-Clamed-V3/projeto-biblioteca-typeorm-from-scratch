@@ -10,6 +10,6 @@ export const AppDataSource = new DataSource({
     database: "biblioteca",
     synchronize: true,
     logging: true,
-    entities: ["src/entity/*.ts"],
+    entities: ["src/entities/*.ts"],
     migrations: ["src/database/migrations/*.ts"]
 })
