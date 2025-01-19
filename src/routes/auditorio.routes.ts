@@ -74,4 +74,43 @@ auditorioRoutes.post('/', async (request, response) => {
     }
 })
 
+auditorioRoutes.put('/:id', async (request, response) => {
+    try {
+        const id = Number(request.params.id)
+        const auditorio = request.body
+
+        if('name' in auditorio && !auditorio.name) {
+            response.status(400).json({ error: 'Nome do auditório é obrigatório'})
+        } else if('capacity' in auditorio && !auditorio.capacity) {
+            response.status(400).json({ error: 'Capacidade do auditório é obrigatório'})
+        } else if('location' in auditorio && !auditorio.location) {
+            response.status(400).json({ error: 'Localização do auditório é obrigatório'})
+        } else if('has_projector' in auditorio && !auditorio.has_projector) {
+            response.status(400).json({ error: 'Informação sobre o projetor é obrigatório'})
+        } else if('has_sound_system' in auditorio && !auditorio.has_sound_system) {
+            response.status(400).json({ error: 'Informação sobre o sistema de som é obrigatório'})
+        } else {
+            const auditorioToUpdate = await auditorioRepository.findOne({where: {id}})
+    
+            if(auditorioToUpdate) {
+                auditorioToUpdate.name = auditorio.name
+                auditorioToUpdate.capacity = auditorio.capacity
+                auditorioToUpdate.location = auditorio.location
+                auditorioToUpdate.has_projector = auditorio.has_projector
+                auditorioToUpdate.has_sound_system = auditorio.has_sound_system
+                auditorioToUpdate.updated_at = new Date()
+    
+                const updatedAuditorio = await auditorioRepository.save(auditorioToUpdate)
+    
+                response.json(updatedAuditorio)
+            } else {
+                response.status(404).json({ error: 'Auditorio não encontrado' })
+            }
+        }
+    } catch (error) {
+        console.log(error)
+        response.status(500).json({ error : 'Erro ao atualizar o auditorio'})
+    }
+})
+
 export default auditorioRoutes;
