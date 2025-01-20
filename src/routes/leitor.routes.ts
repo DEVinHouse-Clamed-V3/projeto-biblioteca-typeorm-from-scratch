@@ -84,8 +84,9 @@ leitorRoutes.get("/:id", async (request: Request, response) => {
 
     if (!readers) {
       response.status(404).json({ error: "Leitor não encontrado" });
+    } else {
+      response.status(201).json(readers);
     }
-    response.status(201).json(readers);
   } catch (error) {
     response.status(500).json({ error: "Erro ao buscar leitor" });
   }
